@@ -1,0 +1,11 @@
+Dataset description
+The dataset contains 2 folders:
+1)	train: folder with data you can use for the training purposes. It contains subfolders:
+-	Folders neg and pos. These folders contain text files with positive and negative movie reviews. Positive review means rating >= 7, negative - <= 4. File naming has format {id}.txt
+-	Files pos_rating.csv and neg_rating.csv. Both files contain raw ratings of movies: the first column contain file id, second is a rating value
+-	Unsup folder. This folder contains text files with movies review without any rating. You can use it (or don’t use) as you wish
+2)	Test:  folder contains text files with naming rule {id}.txt
+Task description
+The main objective is creating DNN model for binary classification of movie reviews (positive/negative) and run prediction on files in the test folder. Results should be in the CSV format. The first column is file id, second is the result of the model prediction.
+The secondary objective is creating a model for the movie rating prediction. If you accomplish it – please add the third column to the resulting CSV file.
+Please, provide all the source code you used for the task completion as well as the resulting CSV file.
